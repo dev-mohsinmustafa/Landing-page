@@ -4,8 +4,8 @@ import './landingPage.css';
 import SliderItems from '../slider/sliderItems';
 import elipseImage from "../../assets/Ellipse 1.png";
 import lineImage from "../../assets/Line 1.png";
-
 import Nav from '../header/header';
+
 
 
 export default function Landingpage() {
@@ -74,6 +74,9 @@ export default function Landingpage() {
 
 
       </div>
+
+
+      
       <div className=''>
 
         <div className='flex ml-20 flex-row items-center '>
@@ -94,7 +97,7 @@ export default function Landingpage() {
           <img src={lineImage} alt="" className='' />
         </div>
 
-        <p className='text-[#EEEEEE] font-Montserrat font-extrabold text-[24px] leading-[40px] pt-10'>Let’s take your <br /> photographs to next level</p>
+        <p className='text-[#EEEEEE] font-Montserrat font-extrabold text-[24px] leading-[40px] py-10'>Let’s take your <br /> photographs to next level</p>
 
       </div>
     </div>
