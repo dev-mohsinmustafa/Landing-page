@@ -9,7 +9,7 @@
 //       <Navbar  
 //   fluid={true}
 //   rounded={true} 
-//   className='bg-stone-900'
+//   className='bg-slate-900'
 // >
 //   <Navbar.Brand href="#">
 //     {/* <img
@@ -111,17 +111,18 @@ const  Navbar = () => {
         <ul className={`md:flex md:items-center pb-12 md:pb-0  absolute md:static bg-[#1F2022]   md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 ' : 'top-[-490px]'}`}>
           {
             Links.map((link) => (
-              <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 space-x-8'>
+              <li key={link.name} className='md:ml-8 text-xl md:my-0 my-7 '>
                 <a href={link.link} className=' text-[#EEEEEE]  hover:text-[#FCE611] duration-500'>{link.name}</a>
                 <a href={link.link} className=' text-[#00ADB5]  hover:text-[#FCE611] duration-500'>{link.name1}</a>
 
               </li>
             ))
           }
-          <Button>
+         
+        </ul>
+        <Button>
             Schedule a call
           </Button>
-        </ul>
 
       </div>
     </div>
