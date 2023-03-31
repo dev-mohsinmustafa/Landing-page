@@ -50,13 +50,13 @@ export default function Landingpage() {
 
 
         {/* <!-- component --> */}
-        <div class="py-16">
+        {/* <div class="py-16"> */}
           <div class="container m-auto px-6 space-y-8  md:px-12 lg:px-20">
             <div class="justify-end text-left gap-6 md:text-left md:flex lg:items-center  lg:gap-16">
-              <div class="order-last  mb-6  md:mb-0 md:w-6/12 lg:w-6/12">
+              <div class="order-last  mb-6  md:mb-0  max-w-md">
                 <p class=" text-[#EEEEEE] font-Poppins font-medium text-[18px]  tracking-[0.04em] ">Hello there, Nice to meet you. I am.</p>
                 <h1 class=" text-[#00ADB5] font-Montserrat  font-bold text-[50px]   tracking-[0.06em]">Jessie</h1>
-                <p class="text-[#EEEEEE] font-Poppins font-normal">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                <p class="text-[#EEEEEE] font-Poppins font-normal text-[16px] leading-[30px] tracking-[4%]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                   Velit officia consequat duis enim velit mollit.
                   Exercitation veniam consequat sunt nostrud amet.
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
@@ -65,7 +65,7 @@ export default function Landingpage() {
 
             </div>
           </div>
-        </div>
+        {/* </div> */}
 
 
 
@@ -76,7 +76,7 @@ export default function Landingpage() {
       </div>
 
 
-      
+
       <div className=''>
 
         <div className='flex ml-20 flex-row items-center '>
