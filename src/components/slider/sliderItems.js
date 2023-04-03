@@ -49,7 +49,7 @@ export default function SliderItems() {
 
     };
     return (
-        <div className='flex flex-row  mt-20' >
+        <div className='flex flex-row ' >
             <div className='flex-col  flex justify-end items-center md:items-end  overflow-hidden'>
                 <div className='flex justify-between w-[49%]'>
                     <h2 className=' font-Josefin Sans font-bold  text-[15px] md:text-[24px]  text-[#FFFFFF] mb-5'> Latest Shots</h2>

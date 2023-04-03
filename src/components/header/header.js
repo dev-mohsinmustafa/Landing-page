@@ -157,11 +157,9 @@ const Nav = () => {
 
         </a>
         <div class="flex md:order-2">
-          <button type="button" class=" focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-[3px]
+          <button type="button" class="hidden md:inline-block focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-[3px]
           font-bold font-[JosefinSans] 
           text-[18px] leading-[18px]
-          
-          
           
           text-sm px-5 py-2.5 text-center mr-3 md:mr-0 bg-[#EEEEEE] hover:bg-yellow-300 text-[background: #000000] ">Schedule a call</button>
           <button onClick={() => setShowMediaIcons(!showMediaIcons)}  data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
@@ -170,7 +168,7 @@ const Nav = () => {
           </button>
         </div>
 
-        <div class={`items-center justify-between hidden w-full md:flex md:w-auto md:order-1 ${showMediaIcons ? "navbar-cta mobile-navbar-cta" : "navbar-cta"}`} id="navbar-cta">
+        <div class={`items-center justify-between  hidden w-full md:flex md:w-auto md:order-1 ${showMediaIcons ? "navbar-cta mobile-navbar-cta" : "navbar-cta"}`} id="navbar-cta">
 
 
         {/* <div className = " items-center justify-between hidden  w-full md:flex md:w-auto md:order-1" id = "navbar-cta"
