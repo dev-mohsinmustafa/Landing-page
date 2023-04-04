@@ -1,10 +1,12 @@
 import React from 'react';
-// import Header from '../header/header';
 import './landingPage.css';
 import SliderItems from '../slider/sliderItems';
 import elipseImage from "../../assets/Ellipse 1.png";
 import lineImage from "../../assets/Line 1.png";
-import Nav from '../header/header';
+import { Navbar } from 'flowbite-react';
+
+import Nav from '../header/nav';
+import NavMenu from '../header/navMenu';
 
 
 
@@ -12,8 +14,10 @@ export default function Landingpage() {
   return (
 
     <div className='mainImage w-[100%]  bg-no-repeat  bg-center  bg-contain '>
+
+      <Navbar />
       <Nav />
-      {/* <Header /> */}
+      <NavMenu />
 
       <div className=' flex flex-col  items-end   mt-[151px] '>       {/* mr-20 deleted*/}
 
@@ -26,22 +30,21 @@ export default function Landingpage() {
           mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p> */}
 
         {/* <a href="#" class="block max-w-sm p-6   ">
-<p className='  text-[#EEEEEE] font-Poppins font-medium  text-center md:text-right text-[18px] leading-[27px] tracking-[0.04em]'>Hello there, Nice to meet you. I am</p>
-    <h5 class=" text-[#00ADB5] font-Montserrat text-[100px] font-extrabold   tracking-tight">Jessie</h5>
-    <p class="text-[#EEEEEE] font-Poppins font-normal ">amet sint. Velit officia consequat duis enim velit mollit.Amet minim
-          mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
-</a> */}
+              <p className='  text-[#EEEEEE] font-Poppins font-medium  text-center md:text-right text-[18px] leading-[27px] tracking-[0.04em]'>Hello there, Nice to meet you. I am</p>
+              <h5 class=" text-[#00ADB5] font-Montserrat text-[100px] font-extrabold   tracking-tight">Jessie</h5>
+              <p class="text-[#EEEEEE] font-Poppins font-normal ">amet sint. Velit officia consequat duis enim velit mollit.Amet minim
+              mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
+           </a> */}
 
 
         {/* <div class="max-w-sm p-6">
-    <a href="#">
-    <p class=" text-[#EEEEEE] font-Poppins font-medium text-[18px] leading-[27px] tracking-[0.04em]">Hello there, Nice to meet you. I am</p>
-        <p class=" text-[#00ADB5] font-Montserrat  font-bold text-[50px]  leading-[121.9px] tracking-[0.06em]">Jessie</p>
-    </a>
-    <p class=" text-[#EEEEEE] font-Poppins font-normal ">amet sint. Velit officia consequat duis enim velit mollit.Amet minim
+         <a href="#">
+           <p class=" text-[#EEEEEE] font-Poppins font-medium text-[18px] leading-[27px] tracking-[0.04em]">Hello there, Nice to meet you. I am</p>
+           <p class=" text-[#00ADB5] font-Montserrat  font-bold text-[50px]  leading-[121.9px] tracking-[0.06em]">Jessie</p>
+          </a>
+          <p class=" text-[#EEEEEE] font-Poppins font-normal ">amet sint. Velit officia consequat duis enim velit mollit.Amet minim
           mollit non deserunt ullamco est sit aliqua dolor do amet sint..</p>
-    
-</div> */}
+          </div> */}
 
 
 
@@ -49,9 +52,9 @@ export default function Landingpage() {
 
 
 
-        {/* <!-- component --> */}
+        {/* <!-- Right --> */}
         {/* <div class="py-16"> */}
-        <div class="container m-auto px-6   md:pr-48">
+        <div class="container ml-auto mr-0 px-6 md:pr-12 lg:pr-6 md:mr-0  xl:pr-48">
           <div class="flex justify-end text-left  ">
             <div class="order-last  mb-6  md:mb-3  max-w-md">
               <p class=" text-[#EEEEEE] font-Poppins font-medium text-[18px] leading-[27px]  tracking-[4%] ">Hello there, Nice to meet you. I am.</p>
@@ -66,17 +69,9 @@ export default function Landingpage() {
           </div>
         </div>
         {/* </div> */}
-
-
-
-
-
-
-
       </div>
-
-
-
+      
+      {/* Left */}
       <div className=''>
 
         <div className='flex ml-20 flex-row items-center '>
