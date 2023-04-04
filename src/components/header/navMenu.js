@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../button/button";
 
 const NavMenu = (props) => {
 
@@ -29,13 +30,15 @@ const NavMenu = (props) => {
               text-[18px] leading-[18px]">{link.name}</a>
                                 <a href={link.link} className="hover:text-[#FCE611] text-[#00ADB5] font-bold font-['Josefin Sans'] 
               text-[18px] leading-[18px]">{link.name1}</a>
-                                
+                 
                             </li>
-                        );
-                     
-                      
-                    }
-                )}
+                            
+                            );
+                            
+                            
+                        }
+                        )}
+                        <Button  />
             </ul>
             
         </div>
