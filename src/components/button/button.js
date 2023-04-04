@@ -1,8 +1,8 @@
 import React from 'react'
 
 export default function Button() {
-  return (
- <div className=''>
+    return (
+        <div className=''>
             <a
                 href="/"
                 className=" rounded-[3px]
@@ -12,7 +12,7 @@ export default function Button() {
             >
                 Get Started
             </a>
-            </div>
-    
-  )
+        </div>
+
+    )
 }

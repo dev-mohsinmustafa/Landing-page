@@ -3,7 +3,6 @@ import './landingPage.css';
 import SliderItems from '../slider/sliderItems';
 import elipseImage from "../../assets/Ellipse 1.png";
 import lineImage from "../../assets/Line 1.png";
-import { Navbar } from 'flowbite-react';
 
 import Nav from '../header/nav';
 import NavMenu from '../header/navMenu';
@@ -15,7 +14,6 @@ export default function Landingpage() {
 
     <div className='mainImage w-[100%]  bg-no-repeat  bg-center  bg-contain '>
 
-      <Navbar />
       <Nav />
       <NavMenu />
 

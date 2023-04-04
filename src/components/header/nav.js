@@ -12,7 +12,7 @@ const Nav = () => {
 
   return (
 
-    <nav className="bg-[#1F2022] px-2 sm:px-4 py-8 ">
+    <nav className="bg-[#1F2022] px-2 sm:px-4 py-8  ">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="#" className="flex items-center">
           <span className="self-center font-bold font-['Josefin Sans'] 
@@ -27,11 +27,11 @@ const Nav = () => {
            p-4  text-center mr-3 md:mr-[80px] bg-[#EEEEEE] hover:bg-yellow-300  hidden lg:block">Schedule a call</button>
 
 
-          <button onClick={() => setOpen((prev) => !prev)} data-collapse-toggle="navbar-cta" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
+          <button onClick={() => setOpen((prev) => !prev)} data-collapse-toggle="navbar-cta" type="button" className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-cta" aria-expanded="false">
             {!open ? <FcMenu /> : <CgClose />}
 
             <NavMenu isOpen={open} />
-            <span class="sr-only">Open main menu</span>
+            <span className="sr-only">Open main menu</span>
 
           </button>
 
