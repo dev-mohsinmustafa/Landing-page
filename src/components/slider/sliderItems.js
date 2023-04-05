@@ -62,12 +62,12 @@ export default function SliderItems() {
         
     };
     return (
-        <div className='flex flex-row ' >
+        <div className='flex flex-row' >
             <div className='flex-col  flex justify-end items-center md:items-end  overflow-hidden'>
                 <div className='flex justify-between w-[49%]'>
-                    <h2 className=' font-Josefin Sans font-bold  text-[15px] md:text-[24px]  text-[#FFFFFF] mb-5'> Latest Shots</h2>
+                    <h2 className=" font-[Josefin Sans] font-bold  text-[15px] md:text-[24px]  text-[#FFFFFF] mb-5"> Latest Shots</h2>
 
-                    <h2 className='font-Montserrat font-semibold not-italic text-[10px] md:text-[14px] leading-[17.07px] tracking-[0.04em] mb-[23px] text-[#00ADB5] text-right mx-14 mt-3'> View all</h2>
+                    <h2 className="font-[Montserrat] font-semibold not-italic text-[10px] md:text-[14px] leading-[17.07px] tracking-[0.04em] mb-[23px] text-[#00ADB5] text-right mx-14 mt-3"> View all</h2>
                 </div>
                 <div className='w-[50%]'>
 

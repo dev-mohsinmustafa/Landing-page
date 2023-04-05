@@ -2,7 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: 'Poppins', 'Open San',  'JosefinSans', 'montserrat'  ;
 
+}
 .slick-prev:before {
     display: none !important;
 }

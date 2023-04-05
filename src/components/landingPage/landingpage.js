@@ -4,8 +4,8 @@ import SliderItems from '../slider/sliderItems';
 import elipseImage from "../../assets/Ellipse 1.png";
 import lineImage from "../../assets/Line 1.png";
 
-import Nav from '../header/nav';
-import NavMenu from '../header/navMenu';
+// import Nav from '../header/nav';
+// import NavMenu from '../header/navMenu';
 
 
 
@@ -14,10 +14,10 @@ export default function Landingpage() {
 
     <div className='mainImage w-[100%]  bg-no-repeat  bg-center  bg-contain '>
 
-      <Nav />
-      <NavMenu />
+      {/* <Nav /> */}
+      {/* <NavMenu /> */}
 
-      <div className=' flex flex-col  items-end   mt-[151px] '>       {/* mr-20 deleted*/}
+      <div className=' flex flex-col  items-end    '>       {/* mr-20 deleted*/}
 
 
         {/* <p className='  text-[#EEEEEE] font-Poppins font-medium  text-center md:text-right text-[18px] leading-[27px] tracking-[0.04em]'>Hello there, Nice to meet you. I am</p>
@@ -52,12 +52,12 @@ export default function Landingpage() {
 
         {/* <!-- Right --> */}
         {/* <div class="py-16"> */}
-        <div class="container ml-auto mr-0 px-6 md:pr-12 lg:pr-6 md:mr-0  xl:pr-48">
-          <div class="flex justify-end text-left  ">
-            <div class="order-last  mb-6  md:mb-3  max-w-md">
-              <p class=" text-[#EEEEEE] font-Poppins font-medium text-[18px] leading-[27px]  tracking-[4%] ">Hello there, Nice to meet you. I am.</p>
-              <h1 class=" text-[#00ADB5] font-Montserrat  font-extrabold text-[100px] leading-[121.9px]  tracking-[6%]">Jessie</h1>
-              <p class="text-[#EEEEEE] font-Poppins font-normal text-[16px] leading-[30px] tracking-[4%]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+        <div className=" ml-auto mr-0 px-6 md:pr-12 lg:pr-6 md:mr-0  xl:pr-48 mt-[151px]">
+          <div className="flex justify-end text-left  ">
+            <div className="order-last  mb-6  md:mb-3  max-w-md">
+              <p className=" text-[#EEEEEE] font-[Poppins] font-medium text-[18px] leading-[27px]  tracking-[4%] ">Hello there, Nice to meet you. I am.</p>
+              <h1 className=" text-[#00ADB5] font-[Montserrat]  font-extrabold text-[100px] leading-[121.9px]  tracking-[6%]">Jessie</h1>
+              <p className="text-[#EEEEEE] font-[Poppins] font-normal text-[16px] leading-[30px] tracking-[4%]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                 Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
@@ -78,7 +78,7 @@ export default function Landingpage() {
             <img src={elipseImage} alt="" className='pb-14' />
           </div>
 
-          <p className='text-[#00ADB5] font-Montserrat font-extrabold text-[24px] leading-[30px] tracking-[0.04em] '>Pro <br /> photographer</p>
+          <p className="text-[#00ADB5] font-[Montserrat] font-extrabold text-[24px] leading-[30px] tracking-[0.04em]">Pro <br /> photographer</p>
         </div>
 
 
@@ -87,10 +87,10 @@ export default function Landingpage() {
 
       <div className='flex flex-row items-center ml-20 gap-3 '>
         <div className='  w-[20px]   '>
-          <img src={lineImage} alt="" className='' />
+          <img src={lineImage} alt="" className='pb-[80px]' />
         </div>
 
-        <p className='text-[#EEEEEE] font-Montserrat font-extrabold text-[24px] leading-[40px] pb-10'>Let’s take your <br /> photographs to next level</p>
+        <p className="text-[#EEEEEE] font-[Montserrat] font-extrabold text-[24px] leading-[40px] pb-10">Let’s take your <br /> photographs to next level</p>
 
       </div>
     </div>

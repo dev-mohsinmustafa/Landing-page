@@ -5,6 +5,7 @@ import { useState } from "react"
 import { FcMenu } from "react-icons/fc";
 import { CgClose } from "react-icons/cg";
 import NavMenu from "./navMenu";
+import logo from "../../assets/logo.svg"
 const Nav = () => {
   const [open, setOpen] = useState(false);
 
@@ -12,17 +13,17 @@ const Nav = () => {
 
   return (
 
-    <nav className="bg-[#1F2022] px-2 sm:px-4 py-8  ">
+    <nav className="bg-[#1F2022] px-2 sm:px-4 py-8 ">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <a href="#" className="flex items-center">
-          <span className="self-center font-bold font-[Josefin Sans] 
+{/* <a href="#"><img src={logo} alt="" className="ml-10 md:ml-[80px]"/></a> */}
+        
+        <a href="#"> <img src={logo} alt="" className=" font-bold font-[Josefin Sans] 
           text-[24px] leading-[24px] whitespace-nowrap dark:text-white text-[#EEEEEE] 
-          ml-[80px] hover:text-[#FCE611] ">Jessie.</span>
+          ml-10 md:ml-[80px] hover:text-[#FCE611]  " /></a>
 
-        </a>
         <div className="flex md:order-2">
           <button type="button" className="focus:ring-4 focus:outline-none focus:ring-blue-300  rounded-[3px]
-          font-bold font-[Josefin Sans] 
+          font-bold font-[Josefin Sans]
           text-[18px] leading-[18px]
            p-4  text-center mr-3 md:mr-[80px] bg-[#EEEEEE] hover:bg-yellow-300  hidden lg:block">Schedule a call</button>
 
@@ -44,22 +45,22 @@ const Nav = () => {
           <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-black md:flex-row md:space-x-9 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-[#1F2022]  dark:border-gray-700">
             <li>
               <a href="#" class="block py-2 pl-3 pr-4   rounded md:bg-transparent md:p-0 dark:text-white 
-              hover:text-[#FCE611] text-[#00ADB5] font-bold font-['Josefin Sans'] 
+              hover:text-[#FCE611] text-[#00ADB5] font-bold font-JosefinSans
               text-[18px] leading-[18px]" aria-current="page">Portfolio</a>
             </li>
             <li>
               <a href="#" class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#FCE611] text-[#EEEEEE]
-              font-bold font-['Josefin Sans'] 
+              font-bold font-JosefinSans 
               text-[18px] leading-[18px]">Blog</a>
             </li>
             <li>
               <a href="#" class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent  md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#FCE611] text-[#EEEEEE] 
-              font-bold font-['Josefin Sans'] 
+              font-bold font-JosefinSans 
               text-[18px] leading-[18px]">Client reviews</a>
             </li>
             <li>
               <a href="#" class="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:p-0  md:dark:hover:bg-transparent dark:border-gray-700 hover:text-[#FCE611] text-[#EEEEEE]
-              font-bold font-['Josefin Sans'] 
+              font-bold font-JosefinSans
               text-[18px] leading-[18px] ">Contact me</a>
             </li>
           </ul>

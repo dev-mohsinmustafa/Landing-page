@@ -8,7 +8,13 @@ module.exports = {
 
   ],
   theme: {
-    extend: {},
+    extend: {
+      // fontFamily: {
+      //   'poppins': ['Poppins','sans-serif'],
+      //   'montserrat': ['Montserrat', 'sans-serif'] ,
+        
+      // },
+    },
   },
   plugins: [
     require('flowbite/plugin')
