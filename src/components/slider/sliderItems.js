@@ -58,6 +58,8 @@ export default function SliderItems() {
             }
         ]
 
+
+        
     };
     return (
         <div className='flex flex-row ' >
@@ -90,7 +92,7 @@ export default function SliderItems() {
                         </div>
 
                     </Slider>
-                    <div className='flex px-5 space-x-5 mt-2'>
+                    <div className='flex px-5 space-x-5 mt-2 '>
                         <button onClick={previous}>
                             <img src={vector1} alt="" />
 

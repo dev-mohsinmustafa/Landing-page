@@ -15,7 +15,7 @@ const Nav = () => {
     <nav className="bg-[#1F2022] px-2 sm:px-4 py-8  ">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="#" className="flex items-center">
-          <span className="self-center font-bold font-['Josefin Sans'] 
+          <span className="self-center font-bold font-[Josefin Sans] 
           text-[24px] leading-[24px] whitespace-nowrap dark:text-white text-[#EEEEEE] 
           ml-[80px] hover:text-[#FCE611] ">Jessie.</span>
 
