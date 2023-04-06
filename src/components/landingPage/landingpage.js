@@ -52,9 +52,8 @@ export default function Landingpage() {
 
         {/* <!-- Right --> */}
         {/* <div class="py-16"> */}
-        <div className=" ml-auto mr-0 px-6 md:pr-12 lg:pr-6 md:mr-0  xl:pr-48 mt-[151px]">
-          <div className="flex justify-end text-left  ">
-            <div className="order-last  mb-6  md:mb-3  max-w-md">
+        <div className=" md:w-1/2 mt-[151px]">
+          <div className="flex flex-col items-start text-left mb-6  md:mb-3   mr-0 sm:mr-[100px]  ">
               <p className=" text-[#EEEEEE] font-[Poppins] font-medium text-[18px] leading-[27px]  tracking-[4%] ">Hello there, Nice to meet you. I am.</p>
               <h1 className=" text-[#00ADB5] font-[Montserrat]  font-extrabold text-[100px] leading-[121.9px]  tracking-[6%]">Jessie</h1>
               <p className="text-[#EEEEEE] font-[Poppins] font-normal text-[16px] leading-[30px] tracking-[4%]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
@@ -62,7 +61,6 @@ export default function Landingpage() {
                 Exercitation veniam consequat sunt nostrud amet.
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
 
-            </div>
 
           </div>
         </div>
