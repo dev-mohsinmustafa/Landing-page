@@ -56,7 +56,7 @@ export default function Landingpage() {
           <div className="flex flex-col items-start text-left mb-6  md:mb-3   mr-0 sm:mr-[100px]  ">
               <p className=" text-[#EEEEEE] font-[Poppins] font-medium text-[18px] leading-[27px]  tracking-[4%] ">Hello there, Nice to meet you. I am.</p>
               <h1 className=" text-[#00ADB5] font-[Montserrat]  font-extrabold text-[100px] leading-[121.9px]  tracking-[6%]">Jessie</h1>
-              <p className="text-[#EEEEEE] font-[Poppins] font-normal text-[16px] leading-[30px] tracking-[4%]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+              <p className="max-w-lg text-[#EEEEEE] font-[Poppins] font-normal text-[16px] leading-[30px] tracking-[4%]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                 Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
